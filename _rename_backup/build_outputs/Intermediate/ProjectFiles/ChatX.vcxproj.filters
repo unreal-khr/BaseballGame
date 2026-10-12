@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ChatX.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ChatX.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChatXEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.clang-format" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ChatX">
+      <UniqueIdentifier>{778C6B21-F772-3A6E-AF44-8C09F8EA7BC5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ChatX\ChatX.Build.cs">
+      <Filter>Source\ChatX</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ChatX\ChatX.cpp">
+      <Filter>Source\ChatX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\ChatX.h">
+      <Filter>Source\ChatX</Filter>
+    </ClCompile>
+    <Filter Include="Source\ChatX\Game">
+      <UniqueIdentifier>{0EA77E79-7CE5-3BE6-ACA2-7E5CA9853DA4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ChatX\Game\CXGameModeBase.cpp">
+      <Filter>Source\ChatX\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Game\CXGameModeBase.h">
+      <Filter>Source\ChatX\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Game\CXGameStateBase.cpp">
+      <Filter>Source\ChatX\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Game\CXGameStateBase.h">
+      <Filter>Source\ChatX\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\ChatX\Helpers">
+      <UniqueIdentifier>{23E112C7-596C-3A9D-AB4B-9B5A0927EC3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ChatX\Helpers\CXGameHelperLibrary.cpp">
+      <Filter>Source\ChatX\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Helpers\CXGameHelperLibrary.h">
+      <Filter>Source\ChatX\Helpers</Filter>
+    </ClCompile>
+    <Filter Include="Source\ChatX\Player">
+      <UniqueIdentifier>{8187A3A0-11E1-3A02-B7A3-F087721C4CBB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ChatX\Player\CXPlayerController.cpp">
+      <Filter>Source\ChatX\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Player\CXPlayerController.h">
+      <Filter>Source\ChatX\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Player\CXPlayerState.cpp">
+      <Filter>Source\ChatX\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\Player\CXPlayerState.h">
+      <Filter>Source\ChatX\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\ChatX\UI">
+      <UniqueIdentifier>{F664B700-56F7-3022-AD24-A66B989CBAEE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ChatX\UI\CXChatInput.cpp">
+      <Filter>Source\ChatX\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ChatX\UI\CXChatInput.h">
+      <Filter>Source\ChatX\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

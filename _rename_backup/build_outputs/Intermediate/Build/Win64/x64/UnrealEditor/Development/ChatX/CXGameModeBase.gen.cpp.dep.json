@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\ue5\\chatx\\intermediate\\build\\win64\\unrealeditor\\inc\\chatx\\uht\\cxgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\ue5\\chatx\\intermediate\\build\\win64\\x64\\chatxeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\ue5\\chatx\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chatx\\definitions.chatx.h",
+            "c:\\ue5\\chatx\\source\\chatx\\game\\cxgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\ue5\\chatx\\intermediate\\build\\win64\\unrealeditor\\inc\\chatx\\uht\\cxgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
